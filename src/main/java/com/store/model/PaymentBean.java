@@ -19,8 +19,6 @@ public class PaymentBean {
     /**
      * Creates a new instance of PaymentBean
      */
-    public PaymentBean() {
-    }
     
     private String ccNumber;
     private Double amount;
