@@ -22,4 +22,24 @@ public class PaymentBean {
     public PaymentBean() {
     }
     
+    private String ccNumber;
+    private Double amount;
+    
+    
+    public String getCcNumber() {
+        return ccNumber;
+    }
+    public void setCcNumber(String ccNumber) {
+        this.ccNumber = ccNumber;
+    }
+    
+    public Double getAmount() {
+        return amount;
+    }
+    public void setAmount(Double amount) {
+        this.amount = amount;
+    }
+    
+
+    
 }
