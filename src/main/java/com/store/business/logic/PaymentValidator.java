@@ -13,5 +13,7 @@ import javax.ejb.Local;
  */
 @Local
 public interface PaymentValidator {
+
+    public Boolean process(String ccNumber, Double amount);
     
 }

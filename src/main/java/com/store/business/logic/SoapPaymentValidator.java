@@ -14,6 +14,9 @@ import javax.ejb.Stateless;
 @Stateless
 public class SoapPaymentValidator implements PaymentValidator {
 
-    // Add business logic below. (Right-click in editor and choose
-    // "Insert Code > Add Business Method")
+    @Override
+    public Boolean process(String ccNumber, Double amount) {
+        Boolean isValid= true;
+        return isValid;
+    }
 }
