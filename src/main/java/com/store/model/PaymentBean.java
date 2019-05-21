@@ -28,7 +28,10 @@ public class PaymentBean {
     private Double amount;
     
     public String doPaymentWithSoap(){
-        if(ccNumber.length()==10){
+        System.out.println("Le paiement commence");
+        boolean isValid = paymentValidator.process(ccNumber, amount);
+        
+        if(isValid==10){
             return "valid";
         }else{
             return "invalid";
