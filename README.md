@@ -13,7 +13,9 @@ Payment Successful:
 
 ![image](https://user-images.githubusercontent.com/19567048/58095891-342a9580-7bd4-11e9-95b0-4ef35d20035c.png)
 
+Error payment (the credit card code seems not to contain 10 characters) 
 
+![image](https://user-images.githubusercontent.com/19567048/58098470-f597d980-7bd9-11e9-8e71-da298eb0cb23.png)
 
 ## Built With
 
