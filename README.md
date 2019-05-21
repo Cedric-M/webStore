@@ -2,6 +2,8 @@
 
 Creation of the SOAP web service client application
 
+Common objective along with [bankFacade-ejb](https://github.com/Cedric-M/bankFacade-ejb): Creating SOAP Web Services and a Web Services Client
+
 ## Preview
 
 Payment:
