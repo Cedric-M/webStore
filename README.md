@@ -6,7 +6,7 @@ Creation of the SOAP web service client application
 
 Payment:
 
-![image](https://user-images.githubusercontent.com/19567048/58095851-270da680-7bd4-11e9-91ba-f2ba421f4d06.png)
+![image](https://user-images.githubusercontent.com/19567048/58098958-e6655b80-7bda-11e9-9efd-32382dec9b33.png)
 
 
 Payment Successful:
