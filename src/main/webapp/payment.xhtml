@@ -6,7 +6,14 @@
         <title>Facelet Title</title>
     </h:head>
     <h:body>
-        Hello from Facelets
+        <h:form>
+            <h:outputLabel value="n° carte bleue :"/>
+            <h:inputText value="#{paymentModel.ccNumber}"/>
+            <h:outputLabel value="montant : "/>
+            <h:inputText value="#{paymentModel.amount}"/>
+            <h:commandButton value="Payer avec Soap"
+            action="#{paymentModel.doPaymentWithSoap}"/>
+        </h:form>
     </h:body>
 </html>
 
