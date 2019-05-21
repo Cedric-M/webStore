@@ -5,8 +5,10 @@
  */
 package com.store.model;
 
+import com.store.business.logic.PaymentValidator;
 import javax.inject.Named;
 import javax.enterprise.context.RequestScoped;
+import javax.inject.Inject;
 
 /**
  *
@@ -16,6 +18,8 @@ import javax.enterprise.context.RequestScoped;
 @RequestScoped
 public class PaymentBean {
 
+    @Inject
+    private PaymentValidator paymentValidator;
     /**
      * Creates a new instance of PaymentBean
      */
