@@ -23,7 +23,15 @@ public class PaymentBean {
     private String ccNumber;
     private Double amount;
     
+    public String doPaymentWithSoap(){
+        if(ccNumber.length()==10){
+            return "valid";
+        }else{
+            return "invalid";
+        }
+    }
     
+    //getters et setters pour ccNumber et amount
     public String getCcNumber() {
         return ccNumber;
     }
