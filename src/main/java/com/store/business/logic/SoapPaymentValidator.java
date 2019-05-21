@@ -22,7 +22,7 @@ public class SoapPaymentValidator implements PaymentValidator {
 
     @Override
     public Boolean process(String ccNumber, Double amount) {
-        Boolean isValid= true;
+        Boolean isValid= banking.paymentOperation(ccNumber, amount);
         return isValid;
     }
 }
