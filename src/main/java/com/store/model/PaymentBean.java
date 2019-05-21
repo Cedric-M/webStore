@@ -31,7 +31,7 @@ public class PaymentBean {
         System.out.println("Le paiement commence");
         boolean isValid = paymentValidator.process(ccNumber, amount);
         
-        if(isValid==10){
+        if(isValid==true){
             return "valid";
         }else{
             return "invalid";
